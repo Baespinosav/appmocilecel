@@ -1,0 +1,286 @@
+
+/* navbar */
+
+.container-fluid img{
+	height: 100px;
+	color:black;
+}
+
+.container-fluid .iconos{
+	height:20px;
+	padding-left: 20px;
+	pointer-events: fill;
+}
+
+nav a{
+	font-weight: 600;
+}
+
+/*cartas*/
+
+
+
+/*img de qr y logoapp*/
+
+
+
+
+
+
+
+
+
+
+/*carrusel*/ 
+
+.product {
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	width: 1000px;
+  }
+  
+  .product-category {
+	padding: 0 10vw;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	text-transform: capitalize;
+  }
+  
+  .product-container {
+	padding: 0 10vw;
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .product-card {
+	flex: 0 0 auto;
+	width: 250px;
+	height: 450px;
+	margin-right: 40px;
+  }
+  
+  .product-image {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+  }
+  
+  .product-thumb {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .discount-tag {
+	position: absolute;
+	background: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	color: #ff7d7d;
+	right: 10px;
+	top: 10px;
+	text-transform: capitalize;
+  }
+  
+  .card-btn {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	width: 90%;
+	text-transform: capitalize;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+	cursor: pointer;
+	opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+	opacity: 0;
+  }
+  
+
+  
+  .product-info {
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+  }
+  
+  .product-brand {
+	text-transform: uppercase;
+  }
+  
+  .product-short-description {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	opacity: 0.5;
+	text-transform: capitalize;
+	margin: 5px 0;
+  }
+  
+  .price {
+	font-weight: 900;
+	font-size: 20px;
+  }
+  
+  .actual-price {
+	margin-left: 20px;
+	opacity: 0.5;
+	text-decoration: line-through;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+	border: none;
+	width: 10vw;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+	cursor: pointer;
+	z-index: 8;
+  }
+  
+  .pre-btn {
+	left: 0;
+	transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+	right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+	opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+	opacity: 1;
+  }
+  
+  .collection-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+  }
+  
+  .collection {
+	position: relative;
+  }
+  
+  .collection img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .collection p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 50px;
+	text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+	grid-column: span 2;
+	margin-bottom: 10px;
+  }
+  
+  .titulo{
+	text-align: right;
+	font-family:Arial,fantasy;
+	text-size-adjust: 100px;
+	/* border: #ff7d7d solid; */
+  }
+
+  .potito{
+	text-align: center;
+  }
+
+  .tedoycomocaja{
+	width: 70%;
+	height: 1200px;
+	/* border: black solid; */
+	margin: 0 auto;
+  }
+
+  .uwu{
+	text-align: center;
+	margin: 0 auto;
+	color: rgb(34, 0, 255);
+  }
+
+  .button {
+    background-color: #005b79;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-radius: 15px;
+}
+
+.letra{
+	font-size: 20px;
+}
+
+.contenedorgeneral{
+	width: 100%;
+	border: black solid;
+	max-width: 2000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+
+/*----------------------------------------*/
+
+/* @media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+} */
+
+/* @media  (max-width: 700px) {
+	header{
+		flex-direction: column;
+	}
+
+	nav{
+		padding: 10px 0px;
+	}
+} */
+
